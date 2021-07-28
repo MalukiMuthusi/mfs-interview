@@ -1,2 +1,2 @@
-release: python3 euclidean/manage.py migrate
-web: gunicorn euclidean.euclidean.wsgi --preload --log-file -
+release: python3 manage.py migrate
+web: gunicorn euclidean.wsgi --preload --log-file -
